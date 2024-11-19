@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 # Start the benchmark
 
-# Define the llm models to compare in the main.py file
+## Define the llm models and roles to compare in the main.py file
 ```python
 LLM_MODELS = {
     "openai": ["gpt-4o-mini"],
@@ -19,11 +19,10 @@ LLM_MODELS = {
     "gemini": ["gemini-1.5-flash"],
     "mistral": ["mistral-small-latest"],
 }
+ROLES = ["user", "assistant", "system"]
 ```
 
 # Run the benchmark
 ```bash
 python main.py
 ```
-
-
