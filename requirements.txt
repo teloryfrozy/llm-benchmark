@@ -1,0 +1,6 @@
+google-generativeai
+anthropic
+openai
+mistralai
+python-dotenv
+colorama
