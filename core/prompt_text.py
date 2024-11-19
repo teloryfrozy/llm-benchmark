@@ -4,13 +4,11 @@ Benchmarking script for a prompt with different LLM models and roles for generat
 
 import statistics
 from colorama import Fore, init
+from utils.constants import PROMPT
 from utils.utils import get_prompt_response
 
 
 init(autoreset=True)
-
-# Define the prompt you want to benchmark here
-PROMPT = "How to advertise a SaaS with a budget of $1000 in 3 key sentences?"
 
 
 results = {}

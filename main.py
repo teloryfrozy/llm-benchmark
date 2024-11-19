@@ -17,7 +17,7 @@ LLM_MODELS = {
     "mistral": ["mistral-small-latest"],
 }
 ROLES = ["user", "assistant", "system"]
-VERBOSE = True
+VERBOSE = False
 
 
 if __name__ == "__main__":

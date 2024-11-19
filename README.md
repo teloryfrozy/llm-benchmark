@@ -22,6 +22,11 @@ LLM_MODELS = {
 ROLES = ["user", "assistant", "system"]
 ```
 
+## Define your prompt in utils/constants.py
+```python
+PROMPT = "How to advertise a SaaS with a budget of $1000 in 3 key sentences?"
+```
+
 # Run the benchmark
 ```bash
 python main.py
